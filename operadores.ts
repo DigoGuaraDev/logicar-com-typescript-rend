@@ -2,6 +2,15 @@ const a:number = 10
 const b:number = 5
 const c:number = 6
 
-console.log('A > B:' a > b)
+console.log('A > B:', a > b)
 console.log('C < A:', c < a)
 console.log('B = C:', b === c)
+
+console.log("A > B AND C < A:", a > b && c < b)
+console.log("B = C AND C < A:", b === c && c < a)
+
+console.log("A > B OR C < A:", a > b || c < b)
+console.log("B = C OR C < A:", b === a || c < a)
+
+console.log("A > C AND A > B:", a > c && a > b)
+console.log("A > C OR A = A:", a > c || a === a)
