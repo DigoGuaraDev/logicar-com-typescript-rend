@@ -1,17 +1,18 @@
-const tela = require("readline-sync")
+import tela = require("readline-sync")
 
 
 console.log()
 
-const nomeMeis: string = require.question("informe o nome do meis:")
+const nomeMeis: string = tela.question("qual sua idade e nome:")
 
-let data:[number,string]=[39,'guara'];
-
-const data1: number =Number(tela.question.push(22,'Abril;'))
-const data2: number =Number(tela.question.push(13,'Maio;'))
-const data3: number =Number(tela.question.push(15,'Junho;'))
-const data4: number =Number(tela.question.push(6,'Julho;'))
-
+let idadeNome:[number,string]
+idadeNome = [38,'Hypnos']
+console.log(data);
+ 
+while(loop){
+ console.log("idades dos Parendes")
+const informaçãoIdade:string = ("A - Andilo\n ")
+}
 console.log(data)
 
 console.log(`Qual o Meis ${nomeMeis} essa é a data do meis ${data}`) 
