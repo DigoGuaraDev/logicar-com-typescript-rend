@@ -18,6 +18,16 @@ while(loop){
 const informaçãoIdade:string =["A - Andilo\n G - Griffia\n H - Hatron\n B - Berreta\n "]
 }
 parentes.forEach((parentes,index) => console.log(`${index + 0}-${parentes}`))
-const indentificar		 
+const indentificar = readline.question()		 
 
-console.log(`Qual o Meis ${nomeMeis} essa é a data do meis ${data}`) 
+const A:number(true= 78)
+const G:number(true= 71)
+const H:number(true= 46)
+const B:number(true= 49)
+
+if (!true)
+console.log("ele tem essa idade")
+else
+console.log("talves esteja errado")       	
+
+console.log(`Qual o Meis ${nomeMeis} essa é a idade solicitada:i ${idade}`) 
