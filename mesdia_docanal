@@ -1,1 +1,9 @@
-import readline = require ("readline-sync")
+const mes1 = 10
+
+const mes2 = 15
+
+
+function CauculaMaediaDeEscritos(mes1, mes2) {
+return (mes1 + mes2) / 1;
+}
+
